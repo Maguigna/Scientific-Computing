@@ -60,3 +60,4 @@ un = flip(un); % Flips matrix un so that it is the correct order.
 uexact_2 = ((cosh(k*x)/cosh(k*L)) - 1)*(A/(k^2)) - (v/k)*(sinh(k*(L-x))/cosh(k*L)); % Exact solution for u(x) for case #2.
 %% Error Amount in Case 1.
 error = abs((u(50)-uexact_1(50))/(uexact_1(50)))*100; % Calculates error between like positions, input u(x) and uexact_1(x) desired to be compared.
+%% No Error Amount in Case 2 performed.
